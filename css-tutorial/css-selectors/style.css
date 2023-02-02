@@ -1,0 +1,22 @@
+/* Simple Selector -> Name of Element, Class, ID */
+
+.dis {
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  background-color: antiquewhite;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: chartreuse;
+  border-radius: 50%;
+}
+.cox {
+  color: red;
+}
+#potenga {
+  font-style: italic;
+}

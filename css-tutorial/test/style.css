@@ -1,0 +1,4 @@
+.box{
+    height: 300px;
+    background-image: linear-gradient(red, green 13rem, yellow 100%);
+}

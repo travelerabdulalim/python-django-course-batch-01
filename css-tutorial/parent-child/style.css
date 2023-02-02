@@ -1,0 +1,15 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  background-color: burlywood;
+}
+.child {
+  width: 50%;
+  height: 40%;
+  background-color: aquamarine;
+}

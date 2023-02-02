@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    font-size: 40px;
+    grid-template-areas: 
+    "o t t"
+    "o t t",
+    "o t t";
+}
+
+.grid-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background-color: green;
+    grid-area: o;
+}
+.two {
+    background-color: burlywood;
+    grid-area: t;
+
+}
+.three {
+    background-color: red;
+    grid-area: ;
+}
+.four {
+    background-color: blue;
+}
+.five {
+    background-color: cyan;
+}
+.six {
+    background-color: darkgray;
+}
