@@ -3,12 +3,11 @@ p.one::first-letter {
     font-size: 50px;
 }
 
-p.two::first-line {
+ p.two::first-line {
     color: blue;
     text-transform: uppercase;
-    word-spacing: 5px;
 }
-p::selection {
+ p::selection {
     color: red;
     background-color: yellow;
-}
+}  
