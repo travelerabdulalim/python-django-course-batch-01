@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .triangle {
     width: 500px;
     height: 500px;

@@ -1,0 +1,45 @@
+.box{
+    width: 200px;
+    height: 200px;
+    
+    position: relative;
+    animation-name: animation-01;
+    animation-duration: 4s;
+    border-radius: 50%;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes animation-01 {
+    0%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: lime;
+        left: 300px;
+        top: 0;
+       
+    }
+    50%{
+        background-color: blue;
+        left: 300px;
+        top: 300px;
+        
+    }
+    75%{
+        background-color: yellow;
+        left: 0;
+        top: 300px;
+        
+    }
+    100% {
+        background-color:aqua;
+        left: 0;
+        top: 0;
+        
+    }
+}

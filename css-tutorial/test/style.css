@@ -1,4 +1,8 @@
+body {
+    width: 800px;
+}
+
 .box{
-    height: 300px;
-    background-image: linear-gradient(red, green 13rem, yellow 100%);
+    width: min-content;
+    border: 2px solid red;
 }
