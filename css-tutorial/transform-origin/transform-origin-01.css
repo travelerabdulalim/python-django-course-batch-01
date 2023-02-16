@@ -1,0 +1,28 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    margin: auto;
+    margin-top: 100px;
+    transition: 1s;
+    /* transform-origin: top right; */
+    transform-origin: 100% 50%;
+}
+
+.box1:hover {
+    transform: rotate(30deg);
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: #8e44ad;
+    margin: auto;
+    margin-top: 100px;
+    transition: 1s;
+    /* transform-origin: top right; */
+    transform-origin: 100% 50%;
+}
+.box2:hover{
+    transform: scale(2, 1);
+}
