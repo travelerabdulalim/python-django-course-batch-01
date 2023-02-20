@@ -1,0 +1,32 @@
+body * {
+    position: absolute;
+}
+.box1 {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    z-index: 101;
+}
+.box2 {
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+    z-index: 100;
+}
+.child1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    z-index: 100;
+}
+.child2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.child3 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    z-index: 105;
+}
